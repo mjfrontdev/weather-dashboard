@@ -7,6 +7,19 @@ body {
   font-family: Vazir, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: background 0.4s, color 0.4s;
+}
+
+/* حالت تاریک */
+.dark body {
+  background: #181926;
+  color: #F4F4F4;
+}
+
+/* حالت روشن */
+body {
+  background: #F8FAFC;
+  color: #232946;
 }
 
 code {
